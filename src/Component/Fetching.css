@@ -1,0 +1,130 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-image: url('https://images.unsplash.com/photo-1614078075131-e2fddc5bb59d'); */
+  background-image: url('https://images.unsplash.com/photo-1614078075131-e2fddc5bb59d');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* App container */
+.app {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Search Box */
+.search-container {
+  display: flex;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 10px 15px;
+  box-shadow: 0 0 15px #00f7ff60;
+  margin-bottom: 30px;
+}
+
+.search-container input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.search-container input::placeholder {
+  color: #aaa;
+}
+
+.search-container button {
+  background: #111;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.search-container button:hover {
+  background: #1f1f1f;
+}
+
+/* Card UI */
+.card {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 0 20px #00f7ff40;
+  transition: 0.3s ease;
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #00f7ff;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card p {
+  color: #ccc;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.stats span {
+  font-size: 1rem;
+  color: #ddd;
+  margin: 8px 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #00aaff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #00f7ff;
+}
